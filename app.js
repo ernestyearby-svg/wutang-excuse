@@ -19,7 +19,7 @@ document.querySelectorAll('[data-reserve]').forEach(button=>button.addEventListe
 returnFocus=menu.open?$('#menu-toggle'):button;
 if(menu.open)closeMenu();
 form.reset();form.hidden=false;$('#reserve-success').hidden=true;
-form.elements.edition.value=button.dataset.reserve||'wu';reserve.showModal();
+form.elements.edition.value='brand';reserve.showModal();
 }));
 const closeReserve=()=>reserve.close();
 $('#reserve-close').addEventListener('click',closeReserve);
