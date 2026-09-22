@@ -1,3 +1,4 @@
+import './brand.js';
 import {submitReservation, subscribeEmail, states} from './forms.js';
 const $ = s => document.querySelector(s);
 const gate=$('#age-gate'), site=$('#site'), menu=$('#mobile-menu'), reserve=$('#reservation'), form=$('#reserve-form');
