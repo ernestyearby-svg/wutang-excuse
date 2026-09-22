@@ -1,44 +1,55 @@
-# Brand authority audit — 21 September 2026
+# Wu-Tang Brands globe review audit
 
-## Implementation
-The supplied official globe JPG is copied byte-for-byte to `dist/assets/brand/wu-tang-tequila-globe.jpg`. `dist/brand.js` is the single logo reference. Header, footer, age gate and Collector Goods hero use it without tracing, cropping, recoloring, filters or distortion. Its white background is deliberately retained. A transparent PNG or vector production source was not found in the repository.
+Branch: `brand-globe-review`. REVIEW ONLY. No merge to main or production deployment is authorized.
 
-Consumer wordmarks and homepage title now read WU-TANG TEQUILA. Legitimate EXCUSE collaboration descriptions and supplied beverage labels are retained. WU-TANG BRAND EDITION is unchanged. Collector Goods public copy has zero EXCUSE references.
+## Result
 
-## Active image inventory
-Statuses apply to each named image and its responsive derivatives. No legacy files were deleted. These are artwork review statuses, not claims that all embedded logos are exact reproductions of the new source.
+All six originally flagged artwork families have replacement assets in active use. Five additional merchandise families had small standalone marks corrected during the full-resolution review. No standalone Wu marks were identified in the final active imagery after these corrections. Original files remain retained and are not referenced by the two active pages.
 
-| Image family | Status | Finding / required action |
-| --- | --- | --- |
-| brand/wu-tang-tequila-globe.jpg | A APPROVED | Exact supplied artwork, unchanged. JPG available; transparent/vector source missing. |
-| goods-cap | A APPROVED | Corrected naming and globe identity. |
-| goods-beanie | A APPROVED | Corrected naming and globe identity. |
-| goods-duffel | A APPROVED | Corrected naming and globe identity. |
-| goods-barware | A APPROVED | Corrected naming and globe identity; Brand Edition retained. |
-| goods-campaign | C REPLACE | Jacket chest contains a prominent standalone W. Corrected naming is present, but campaign and homepage teaser need a new approved composite. |
-| goods-jacket | D HOLD | Main garment globe is correct; tiny neck/cuff marks require client confirmation or replacement. |
-| goods-hoodie | D HOLD | Main garment globe is correct; small neck-label standalone mark needs confirmation. |
-| goods-crewneck | D HOLD | Main garment globe is correct; small neck-label mark needs confirmation. |
-| goods-tee | D HOLD | Main garment globe and Brand Edition wording are present; small neck-label mark needs confirmation. |
-| goods-box | D HOLD | Corrected main naming and globe; small garment-label details cannot be certified from supplied raster. |
-| hero-desktop | C REPLACE | Standalone W in architectural backdrop and collector product treatment. |
-| hero-mobile | C REPLACE | Legacy collector composition includes standalone W treatment. |
-| wu-edition | C REPLACE | Silver standalone W on collector decanter/presentation; approved replacement required for this specific edition. |
-| brand-edition | C REPLACE | Bottle globe present, but architectural backdrop uses standalone W. |
-| legacy | C REPLACE | Standalone W architectural/medallion imagery. |
-| nyc-hero | D HOLD | Globe treatment and legitimate EXCUSE beverage collaboration labels; confirm against new brand authority before certifying. |
-| nyc-mobile | D HOLD | Globe treatment and legitimate beverage collaboration labels; same confirmation needed. |
-| agave | A APPROVED | Neutral landscape, no identity mark to replace. |
+Primary consumer identity: WU-TANG TEQUILA. Edition identifier: WU-TANG BRAND EDITION. Collector Goods public copy and active corrected merch imagery: zero EXCUSE branding. Original beverage labels and legitimate EXCUSE collaboration prose remain by contextual exception; these are not Collector Goods branding.
 
-## Outstanding production inputs
-Six active image families have clear standalone-mark conflicts: hero-desktop, hero-mobile, wu-edition, brand-edition, legacy, goods-campaign. This count is affected image families, not individual occurrences inside raster images. Their current compositions are retained pending approved replacements to avoid fabricating logos, modifying product labels or destroying the existing design; the global globe lock remains FAIL. Five corrected garment/box families and two beverage NYC families are on HOLD as described above. Do not treat this audit as approval of those images.
+## Source fidelity
 
-The ten corrected Collector Goods asset families are active. All previous uncorrected merch originals in the historical attachment pack and `exports/EXCUSE-WuTang-Collector-Goods-Asset-Pack.zip` remain legacy/non-active material and need re-packaging before delivery. Other inactive assets, including nyc-product and official-wutang.jpg, were not promoted to active use or approved by this audit. Historical generation scripts are not production sources and must not be rerun to overwrite the current brand implementation.
+`wu-tang-tequila-globe.png` derives from the supplied JPG through neutral-white background alpha removal only. Source RGB channels are byte-identical before proportional placement; no symbol tracing, redraw, recoloring, filters or generative logo substitution was used. The original JPG is retained. Composites use black inset surfaces to cover legacy marks and preserve original foreground bottles. They are review artwork for client approval, not claims of approved physical packaging. Existing globe-containing artwork remains supplied artwork.
 
-Only agency credit: Designed & Developed by Dynasty Works Studio.
+One generative candidate was rejected for source-logo drift and was never activated. The client explicitly authorized deterministic compositing thereafter.
 
-## Layout checks
-Desktop 1440px and mobile 390px: both routes render the official globe at square proportions without horizontal overflow. Collector Goods retains its three-column desktop grid and single-column mobile layout. JavaScript syntax checks passed. Logo source and installed asset SHA-256 hashes match exactly. These layout passes do not override the outstanding artwork brand-lock failure.
+## Replacements
 
-## Review-only continuation
-The client authorized committing this audit to brand-globe-review only. Production publication and merging to main are prohibited. The first edited hero candidate was rejected because its architectural globe did not preserve the exact supplied artwork. The image-editing service then reached its usage limit; no generated candidate has been activated. Six originally flagged artwork families remain unresolved. Close inspection also confirms standalone marks on the jacket cuff/neck label, hoodie neck label/accessory box, crewneck neck label, and tee neck/hem labels. Collector box neck-label motif is agave, not a standalone Wu symbol. These findings supersede the earlier uncertain garment-label descriptions.
+| Family | Corrected marks | Active file |
+| --- | ---: | --- |
+| hero-desktop | 3 | hero-desktop-globe-review.webp |
+| hero-mobile | 3 | hero-mobile-globe-review.webp |
+| wu-edition | 3 | wu-edition-globe-review.webp |
+| brand-edition | 1 | brand-edition-globe-review.webp |
+| legacy | 2 | legacy-globe-review.webp |
+| goods-campaign | 6 | goods-campaign-globe-review.webp |
+| goods-jacket | 2 | goods-jacket-globe-review.webp |
+| goods-hoodie | 2 | goods-hoodie-globe-review.webp |
+| goods-crewneck | 1 | goods-crewneck-globe-review.webp |
+| goods-tee | 2 | goods-tee-globe-review.webp |
+| goods-duffel | 4 | goods-duffel-globe-review.webp |
+
+Both full-size and 640px derivatives are available. Page src/srcset references point to the new versions. Central logo reference is `brand.js`. Original filenames and historical export packs are retained for provenance, not active use.
+
+## Remaining active source imagery
+
+goods-box, goods-barware, goods-cap and goods-beanie: visually reviewed; supplied globe identity retained. The collector box neck-label graphic is agave, not a standalone Wu mark. nyc-hero and nyc-mobile: supplied globe identity retained with legitimate beverage collaboration labels. agave: neutral scenery without Wu branding.
+
+## QA
+
+| Route | 1440px desktop | 768px tablet | 390px mobile |
+| --- | --- | --- | --- |
+| Splash | PASS | PASS | PASS |
+| Collector Goods | PASS | PASS | PASS |
+
+No horizontal overflow at tested sizes. Desktop/tablet and dedicated mobile hero sources verified. Tablet headline/CTA overlap corrected with a single-column editorial heading block and compact navigation. Main logo retains square proportions; source artwork is not stretched. Collector Goods interest modal opens and closes. Age gate acceptance works. Core form architecture remains unchanged.
+
+Only agency credit: Designed & Developed by Dynasty Works Studio. Disallowed agency text scan: zero matches in deployable text files.
+
+LIVE_SITE_CHANGED: NO
+REVIEW_BRANCH_READY_FOR_CLIENT_APPROVAL: YES
+
+## Modified deliverables
+
+index.html, collector-goods.html, styles.css, collector-goods.css, app.js, brand.js, transparent globe master, 22 corrected WebP assets, this audit, and compositing manifest. Local lossless masters and reproducible compositing script are retained in review-artwork/ and composite-globe-review.py.

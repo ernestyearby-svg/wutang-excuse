@@ -1,0 +1,68 @@
+[
+  {
+    "family": "hero-desktop",
+    "operations": 3,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "hero-mobile",
+    "operations": 3,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "wu-edition",
+    "operations": 3,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "brand-edition",
+    "operations": 1,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "legacy",
+    "operations": 2,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "goods-campaign",
+    "operations": 6,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "goods-jacket",
+    "operations": 2,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "goods-hoodie",
+    "operations": 2,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "goods-crewneck",
+    "operations": 1,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "goods-tee",
+    "operations": 2,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  },
+  {
+    "family": "goods-duffel",
+    "operations": 4,
+    "method": "source-pixel compositing",
+    "originalRetained": true
+  }
+]

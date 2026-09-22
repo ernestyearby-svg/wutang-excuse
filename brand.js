@@ -1,4 +1,4 @@
-export const officialGlobe = new URL('./wu-tang-tequila-globe.jpg', import.meta.url).href;
+export const officialGlobe = new URL('./wu-tang-tequila-globe.png', import.meta.url).href;
 export function mountBrandIdentity() {
   document.querySelectorAll('[data-brand-identity]').forEach(node => {
     const image = document.createElement('img');

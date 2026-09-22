@@ -20,3 +20,6 @@
 .brand-name small{display:block;font:9px/1.5 Arial,sans-serif;letter-spacing:.35em;margin-top:5px;text-align:center}
 .goods-official-identity{grid-column:1/-1;margin-bottom:8px}.goods-official-identity img{width:88px;height:88px}.goods-official-identity .brand-name{font-size:24px}
 @media(max-width:700px){.brand-identity{gap:9px}.brand-identity img{width:42px;height:42px}.brand-name{font-size:17px}.goods-official-identity{margin-bottom:24px}.goods-official-identity img{width:72px;height:72px}}
+
+.brand-identity img{background:transparent;padding:0}
+@media(min-width:701px) and (max-width:900px){header nav{display:none}#menu-toggle{display:flex}}
