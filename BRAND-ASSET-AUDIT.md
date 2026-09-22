@@ -53,3 +53,5 @@ REVIEW_BRANCH_READY_FOR_CLIENT_APPROVAL: YES
 ## Modified deliverables
 
 index.html, collector-goods.html, styles.css, collector-goods.css, app.js, brand.js, transparent globe master, 22 corrected WebP assets, this audit, and compositing manifest. Local lossless masters and reproducible compositing script are retained in review-artwork/ and composite-globe-review.py.
+## Image quality correction
+Review composites are now rebuilt directly from original supplied JPGs, not previously compressed WebPs. Full-size and 640px WebPs use lossless encoding. Edge-mask feathering is reduced to 0.65px; no global blur or sharpening is applied. Feature-section responsive sizes now reflect their actual display width. Original source resolution limits remain: landscape 1280px, dedicated mobile hero 720px, merchandise portraits 1024px. No synthetic detail or logo redraw was introduced.
